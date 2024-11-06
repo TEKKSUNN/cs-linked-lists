@@ -4,7 +4,7 @@
     "fix": "eslint --fix src/ && npx prettier --write src/*",
     "test": "jest --watch *.js"
   },
-  "name": "cs-linked-lists",
+  "name": "@tekksunn/cs-linked-lists",
   "version": "1.0.0",
   "description": "Computer Science: Linked Lists demonstration.",
   "main": "src/index.js",
