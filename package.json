@@ -12,6 +12,11 @@
     "type": "git",
     "url": "git+ssh://git@github.com/TEKKSUNN/cs-linked-lists.git"
   },
+  "files": [
+    "README.md",
+    "src/misc",
+    "src/index.js"
+  ],
   "keywords": [
     "linked-list",
     "linked-lists",
