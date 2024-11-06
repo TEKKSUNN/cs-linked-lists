@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "setup": "npm init && npm i -D @babel/core @babel/preset-env babel-jest jest && npm init @eslint/config@latest && npm i --save-dev --save-exact prettier && node --eval \"fs.writeFileSync(\"babel.config.js\", \"module.exports = {\n\tpresets: [['@babel/preset-env', {targets: {node: 'current'}}]],\n};\")\" && npm run fix",
+    "fix": "eslint --fix && npx prettier . --write"
+  }
+}
